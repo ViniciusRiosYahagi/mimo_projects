@@ -1,0 +1,43 @@
+.card_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(142, 200, 255);
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    input {
+      border: 1px solid #000;
+      width: 350px;
+      padding: 5px;
+      font-size: larger;
+      outline: none;
+    }
+    select {
+      border: none;
+      width: 280px;
+      padding: 5px;
+      font-size: larger;
+      outline: none;
+    }
+    button {
+      border: 1px solid #000;
+      width: 70px;
+      height: 35px;
+      font-weight: bold;
+      background-color: rgb(233, 255, 136);
+      cursor: pointer;
+    }
+  }
+  h5 {
+    width: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(255, 132, 152);
+  }
+}

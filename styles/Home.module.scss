@@ -1,0 +1,27 @@
+.home_div {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.home_content {
+  width: 700px;
+  text-align: start;
+  padding: 2em;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #333661;
+  p {
+    text-align: justify;
+  }
+  .home_link {
+    font-size: 2em;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: 1s;
+    &:hover {
+      border-bottom: 1px solid #fff;
+    }
+  }
+}

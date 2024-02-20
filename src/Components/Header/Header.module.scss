@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #333661;
+  height: 74px;
+  padding: 2em;
+}
+
+.header_name {
+  position: relative;
+  left: -40px;
+   h1 {
+    color: #fff;
+   }
+   span {
+    font-size: 10px;
+   }
+}
+
+.header_menu {
+  ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+  }
+  li {
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+    &:hover {
+      border-bottom: 1px solid #fff;
+    }
+  }
+}
+
+.options {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    position: relative;
+  }
+}

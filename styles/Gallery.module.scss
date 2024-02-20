@@ -1,0 +1,43 @@
+.card_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #333;
+  h1 {
+    font-size: 2em;
+    color: #fff;
+  }
+  .gallery_image {
+    height: 200px;
+    margin: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid #fff;
+    }
+  }
+  p {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 226, 210);
+  }
+  .gallery_overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 9999px;
+    height: 9999px;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+    .gallery_modal_image {
+      height: 300px;
+      width: 300px;
+    }
+  }
+}
