@@ -3,7 +3,6 @@ import React from "react";
 import Header from "../Header/Header";
 import Card from "../Card/Card";
 import styles from "./Layout.module.scss"
-import ProjectsMenu from "../ProjectsMenu/ProjectsMenu";
 
 type LayoutProps = {
   children: React.ReactNode
