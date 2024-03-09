@@ -16,7 +16,7 @@ export default function Header() {
         <div className={styles.header_menu}>
           <ul>
             <li>
-              <Link to="/" className={styles.options}>
+              <Link to="/projects/1" className={styles.options}>
                 Home
               </Link>
             </li>

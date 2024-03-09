@@ -1,11 +1,8 @@
-import Header from "../Components/Header/Header";
 import styles from "../../styles/Home.module.scss";
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <>
-      <Header />
       <main className={styles.home_div}>
         <div className={styles.home_content}>
           <h1>My History With Mimo</h1>
@@ -21,15 +18,14 @@ export default function Home() {
             beginnings in programming.
           </p>
           <br />
-          <h5>
+          <h6>
             All projects in Mimo are built solely using HTML, JavaScript, and
             CSS except the last project, so I converted it to React and TypeScript.
-          </h5>
+          </h6>
           <Link to="/projects/1" className={styles.home_link}>
             Start
           </Link>
         </div>
       </main>
-    </>
   );
 }
