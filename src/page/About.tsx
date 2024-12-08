@@ -21,8 +21,8 @@ export default function About() {
           </h5>
 
           <h1>Contact</h1>
-          <h5>Developed by:<a href="https://www.linkedin.com/in/vinicius-rios-350647280/" target="_blank">Vinicius Rios</a></h5>
-          <h5>Email: viniciusrios.x3@gmail.com</h5>
+          <h5>Developed by:<a href="https://www.linkedin.com/in/vinicius-rios-350647280/" target="_blank">Vinicius Yahgai Rios</a></h5>
+          <h5>Email: ViniciusYahagiRios@hotmail.com</h5>
           <h1>Technologies</h1>
           <h5>
             <a href="https://react.dev" target="_blank">React</a>
