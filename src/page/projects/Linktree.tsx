@@ -28,7 +28,7 @@ export default function Linktree() {
           </a>
           <a
             className={styles.profile_link}
-            href="https://www.linkedin.com/in/vinicius-rios-350647280/"
+            href="https://www.linkedin.com/in/vinicius-yahagi-rios-350647280/"
             target="_blank"
           >
             Linkedin
