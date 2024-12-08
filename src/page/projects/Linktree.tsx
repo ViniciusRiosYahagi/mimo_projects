@@ -15,7 +15,7 @@ export default function Linktree() {
           src="https://avatars.githubusercontent.com/u/136207802?v=4"
           alt="persona"
         />
-        <h1 className={styles.profile_name}>Vinicius Rios</h1>
+        <h1 className={styles.profile_name}>Vinicius Yahagi Rios</h1>
         <h3>Aspiring Software Developer</h3>
         <p>Welcome to my page!</p>
         <div className={styles.profile_info_div}>
